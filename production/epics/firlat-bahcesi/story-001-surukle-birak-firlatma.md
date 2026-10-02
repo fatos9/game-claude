@@ -1,12 +1,12 @@
 # Story 001: Sürükle-bırak fırlatma
 
 > **Epic**: firlat-bahcesi
-> **Status**: Ready
+> **Status**: In Progress
 > **Layer**: Feature
 > **Type**: Visual/Feel
 > **Estimate**: —
 > **Manifest Version**: N/A (minimal — no control manifest)
-> **Last Updated**: —
+> **Last Updated**: 2026-10-02
 
 ## Context
 

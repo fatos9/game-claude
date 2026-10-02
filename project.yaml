@@ -32,3 +32,30 @@ project:
 modes:
   rigor: minimal
   automation: guided
+
+engine:
+  name: "Unity"
+  version: "6.3 LTS"
+  language: "C#"
+  rendering: "URP"
+  physics: "PhysX"
+
+specialists:
+  code: "unity-specialist"
+  shader: "unity-shader-specialist"
+  ui: "unity-ui-specialist"
+  additional: ["unity-dots-specialist", "unity-addressables-specialist"]
+
+naming:
+  classes: PascalCase
+  variables: camelCase
+  constants: SCREAMING_SNAKE   # UNVERIFIED — not sourceable from
+                               # docs/engine-reference/unity/; confirm before relying on it
+  signals: PascalCase On<Event>
+  files: PascalCase
+  scenes: PascalCase
+
+commands:
+  # TODO: build target not chosen yet and the Unity editor path is unknown on this
+  # machine. Set build/test/run/smoke via /settings once the editor is installed
+  # (see /setup-engine Section 5.5.1 for the Unity command forms).
